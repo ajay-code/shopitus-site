@@ -1,0 +1,88 @@
+/* Experiment Specific Styles */
+
+.top {
+	xbackground: #212121;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.drawer {
+	-webkit-transform: translate3d(0, -141px, 0);
+	-moz-transform: translate3d(0, -141px, 0);
+	-o-transform: translate3d(0, -141px, 0);
+	transform: translate3d(0, -141px, 0);
+	-webkit-transition:-webkit-transform 0.25s linear;
+	-moz-transition:-moz-transform 0.25s linear;
+	-o-transition:-o-transform 0.25s linear;
+	transition:transform 0.25s linear;
+}
+
+.drawer.active {
+	-webkit-transform: translate3d(0,129px,0);
+	-moz-transform: translate3d(0,129px,0);
+	-o-transform: translate3d(0,129px,0);
+	transform: translate3d(0,308px,0);
+}
+
+
+ 
+nav ul {
+list-style:none;
+ }
+nav ul li a {
+display: block;
+text-decoration: none;
+xbackground: rgba(0,0,0,0.3);
+color: white;
+padding: 1em;
+margin-bottom: 1px;
+}
+
+/* Fallbacks */
+
+.no-csstransforms .top {
+	position: static;
+}
+
+.no-csstransforms .drawer nav {
+	display: none;
+ }
+
+.no-csstransforms .drawer.active nav {
+	display: block;
+}
+
+@media all and (min-width: 30em) {
+	.experiment-number {
+		float: left;
+		margin-right: 0.9em;
+		border-right: 1px solid;
+		padding-right: 1em;
+		padding-left: 0.9em;
+		padding-bottom: 0.6em;
+		margin-bottom: 0;
+	}
+	.drawer {
+		-webkit-transform: translate3d(0, -197px, 0);
+		-moz-transform: translate3d(0, -197px, 0);
+		-o-transform: translate3d(0, -197px, 0);
+		transform: translate3d(0, -197px, 0);
+	}
+	.drawer.active {
+		-webkit-transform:translate3d(0,87px,0);
+		-moz-transform:translate3d(0,87px,0);
+		-o-transform:translate3d(0,87px,0);
+		transform:translate3d(0,308px,0);
+	}
+	h1 {
+		text-align: left;
+	}
+	.container {
+		 xpadding: 2.6em;
+	}
+}

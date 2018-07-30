@@ -1,0 +1,42 @@
+[13-Dec-2017 07:57:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/dixiehos1/public_html/shopitus.com/config.php:7
+Stack trace:
+#0 /home/dixiehos1/public_html/shopitus.com/shipping_calculator.php(5): include()
+#1 {main}
+  thrown in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[13-Dec-2017 07:57:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/dixiehos1/public_html/shopitus.com/config.php:7
+Stack trace:
+#0 /home/dixiehos1/public_html/shopitus.com/index.php(4): include()
+#1 {main}
+  thrown in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[14-Dec-2017 06:21:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[14-Dec-2017 06:21:38 UTC] PHP Fatal error:  Class 'SoapClient' not found in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 134
+[14-Dec-2017 06:22:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[14-Dec-2017 06:22:26 UTC] PHP Fatal error:  Class 'SoapClient' not found in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 134
+[15-Dec-2017 03:03:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:04:00 UTC] PHP Fatal error:  Class 'SoapClient' not found in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 134
+[15-Dec-2017 03:11:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:13:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:13:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:15:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:16:08 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:17:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:47:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:48:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:58:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 03:59:02 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 193
+[15-Dec-2017 03:59:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[15-Dec-2017 05:13:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 7
+[17-Dec-2017 06:52:20 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 215
+[17-Dec-2017 06:53:13 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 215
+[17-Dec-2017 06:53:17 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 215
+[17-Dec-2017 06:53:23 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 215
+[17-Dec-2017 08:08:26 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 215
+[17-Dec-2017 08:09:17 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 215
+[17-Dec-2017 10:39:01 UTC] PHP Parse error:  syntax error, unexpected '$new_array' (T_VARIABLE) in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 624
+[19-Dec-2017 17:56:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 212
+[21-Dec-2017 18:22:19 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/dixiehos1/public_html/shopitus.com/estimate.php on line 213
+[28-Dec-2017 19:31:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/contactmy.php on line 7
+[28-Dec-2017 19:31:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/contactmy.php on line 7
+[28-Dec-2017 19:40:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/contactmy.php on line 7
+[07-Jan-2018 07:49:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dixiehos1/public_html/shopitus.com/dev.php on line 15
+[26-Jun-2018 15:13:58 UTC] PHP Parse error:  syntax error, unexpected 'USA' (T_STRING), expecting ',' or ';' in /home/dixiehos1/public_html/shopitus.com/frequently_asked_questions.php on line 356

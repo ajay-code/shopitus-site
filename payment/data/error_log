@@ -1,0 +1,1 @@
+[20-Apr-2018 10:02:44 UTC] PHP Fatal error:  Call to undefined function getUser() in /home/dixiehos1/public_html/shopitus.com/payment/data/currentUser.php on line 7

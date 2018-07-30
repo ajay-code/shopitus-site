@@ -1,0 +1,18 @@
+[20-Apr-2018 10:15:16 UTC] PHP Fatal error:  Class 'Stripe\Stripe' not found in /home/dixiehos1/public_html/shopitus.com/payment/stripe/bootstrap.php on line 15
+[20-Apr-2018 10:16:57 UTC] PHP Fatal error:  Class 'Stripe\Stripe' not found in /home/dixiehos1/public_html/shopitus.com/payment/stripe/bootstrap.php on line 15
+[20-Apr-2018 10:38:52 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'No such customer: cus_00000000000000' in /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiRequestor.php:125 from API request 'req_kpzK93ciCptDFJ'
+Stack trace:
+#0 /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiRequestor.php(99): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 404, Array, Array, Array)
+#1 /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiRequestor.php(310): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 404, Array, Array)
+#2 /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiRequestor.php(61): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+#3 /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiResource.php(63): Stripe\ApiRequestor->request('get', '/v1/customers/c...', Array, Array)
+#4 /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiO in /home/dixiehos1/public_html/shopitus.com/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 125
+[20-Apr-2018 10:39:28 UTC] Stripe Notice: Undefined property of Stripe\Charge instance: current_period_start
+[20-Apr-2018 10:39:28 UTC] Stripe Notice: Undefined property of Stripe\Charge instance: current_period_end
+[20-Apr-2018 10:42:23 UTC] Stripe Notice: Undefined property of Stripe\Charge instance: current_period_start
+[20-Apr-2018 10:42:23 UTC] Stripe Notice: Undefined property of Stripe\Charge instance: current_period_end
+[20-Apr-2018 11:01:11 UTC] Stripe Notice: Undefined property of Stripe\Charge instance: current_period_start
+[20-Apr-2018 11:01:11 UTC] Stripe Notice: Undefined property of Stripe\Charge instance: current_period_end
+[20-Apr-2018 11:04:32 UTC] Stripe Notice: Undefined property of Stripe\Invoice instance: current_period_start
+[20-Apr-2018 11:04:32 UTC] Stripe Notice: Undefined property of Stripe\Invoice instance: current_period_end
+[20-Apr-2018 11:04:32 UTC] Stripe Notice: Undefined property of Stripe\Invoice instance: status

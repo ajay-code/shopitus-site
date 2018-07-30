@@ -1,0 +1,16 @@
+[15-Nov-2017 18:48:01 UTC] PHP Fatal error:  Cannot use [] for reading in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 82
+[15-Nov-2017 18:48:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 82
+[15-Nov-2017 18:52:05 UTC] PHP Notice:  Trying to get property of non-object in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 84
+[15-Nov-2017 18:52:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function QtdSExtrChrgInAdCur() on null in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 84
+[15-Nov-2017 18:53:19 UTC] PHP Notice:  Trying to get property of non-object in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 84
+[15-Nov-2017 18:53:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function BkgDetails() on null in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 84
+[15-Nov-2017 18:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SimpleXMLElement::BkgDetails() in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/baropapa0616/public_html/api_test/dhl-api/samples/AM/GetQuote.php on line 84

@@ -1,0 +1,3 @@
+[20-Apr-2018 12:14:16 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 87
+[21-Apr-2018 03:42:55 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 87
+[21-Apr-2018 03:43:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 87

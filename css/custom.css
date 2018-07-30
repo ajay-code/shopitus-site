@@ -1,0 +1,289 @@
+.navbar-header {
+    min-height: 90px;
+}
+
+.navbar {
+    background: #fff;
+}
+
+a.fa {
+    padding: 4px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+
+/* 
+    Filter
+*/
+
+.filter-wrapper {
+    margin-top: 30px;
+    padding: 30px 30px;
+    border: 1px #e4e4e4 solid;
+    background-color: #a3cdf4;
+}
+
+@media (max-width: 767px) {
+    .filter-wrapper {
+        padding: 20px 10px;
+    }
+}
+
+select {
+    color: #1f1f1f;
+    line-height: 1.3;
+    height: 40px;
+    border: 1px solid #c0c5c9;
+    font-weight: 800;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+/* 
+    Cupon Box
+*/
+
+.coupon-box {
+    width: 100%;
+    box-sizing: border-box;
+    display: table;
+    border: 1px solid #a3cdf4;
+    padding: 20px 30px;
+    margin-top: 25px;
+}
+
+.coupon-box .image-holder {
+    display: table-cell;
+    width: 16.66667%;
+    vertical-align: middle;
+}
+
+.coupon-box .image-holder img {
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.coupon-box .coupon-content {
+    display: table-cell;
+    width: 58.33333%;
+    padding: 0 30px;
+    font-family: Avenir W01, sans-serif;
+    font-weight: 500;
+}
+
+.coupon-box .coupon-action-buttons {
+    display: table-cell;
+    width: 25%;
+    vertical-align: middle;
+}
+
+.coupon-box .coupon-action-buttons .btn {
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .coupon-box .coupon-action-buttons {
+        text-align: center;
+    }
+    .coupon-box .coupon-action-buttons .btn {
+        float: none;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .coupon-box {
+        display: block;
+    }
+    .coupon-box .image-holder {
+        align-content: center;
+        justify-content: center;
+        height: 100%;
+        width: 25%;
+        float: left
+    }
+    .coupon-box .coupon-content {
+        display: block;
+        width: 75%;
+        padding-left: 10;
+        float: left;
+    }
+    .coupon-box .coupon-action-buttons {
+        display: block;
+        width: auto;
+        clear: both;
+        padding-top: 16px;
+        border-top: 1px solid #e4e4e4;
+    }
+    .coupon-box .coupon-action-buttons .btn {
+        display: inline-block;
+    }
+
+   
+}
+
+.product-img
+{
+    max-height: 110px;
+}
+
+@media screen and (max-width: 550px) {
+    
+    .coupon-box .image-holder {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .coupon-box .image-holder image {
+        margin: auto;
+    }
+    .coupon-box .coupon-content {
+        display: block;
+        width: auto;
+        padding-left: 0;
+    }
+    .coupon-box .coupon-action-buttons {
+        text-align: center;
+    }
+}
+
+
+/* 
+    Info And Pagination
+*/
+.coupon-more-info p {
+    margin: 30px 0;
+    display: block;
+}
+
+.blog-pagination {
+    font-family: Avenir W01, sans-serif;
+}
+
+.blog-pagination a {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #767676;
+    padding: 0 12px;
+    display: inline-block;
+    color: #767676;
+    font-size: .7em;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 900;
+    border-radius: 0; 
+}
+.blog-pagination a.active {
+    background: #70b1c7;
+    color: #fff;
+}
+.blog-pagination a+a {
+    margin-left: 5px;
+}
+
+/* 
+    Footer
+*/
+
+footer{
+    background-color: #021325;
+}
+
+.cards{
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
+.cards img{
+    display: inline-block;
+}
+
+.text-xs-center{
+
+}
+
+@media (max-width: 767px){
+    .text-xs-center {
+        text-align: center
+    }
+}
+
+.loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.8;
+    z-index: 999;
+}
+.loader > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Slider */
+.flex-direction-nav a:before {
+    font-size: 30px;
+}
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.recommended-img{
+    height: 150px !important;
+    border: 1px #ccc solid;
+}
+
+.certona-text {
+    width:150px;
+    display: block;
+    color: gray;
+    overflow: hidden;
+    padding: 5px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.certona-text::first-letter {
+    text-transform: capitalize;
+}

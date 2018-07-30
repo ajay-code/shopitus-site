@@ -1,0 +1,60 @@
+[31-Mar-2018 09:56:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 12
+[31-Mar-2018 09:57:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 12
+[31-Mar-2018 10:05:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 12
+[31-Mar-2018 10:05:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/config.php:12) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 83
+[31-Mar-2018 10:09:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 12
+[31-Mar-2018 10:09:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/config.php:12) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 85
+[31-Mar-2018 10:11:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dixiehos1/public_html/shopitus.com/config.php on line 12
+[31-Mar-2018 10:12:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/config.php:12) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 85
+[12-Apr-2018 12:41:00 UTC] PHP Notice:  Undefined variable: subscription in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 27
+[12-Apr-2018 12:41:00 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'agreementId cannot be null' in /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Agreement.php(429): PayPal\Validation\ArgumentValidator::validate(NULL, 'agreementId')
+#1 /home/dixiehos1/public_html/shopitus.com/app/helpers.php(20): PayPal\Api\Agreement::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php(27): cancelAgreement(NULL, Object(PayPal\Rest\ApiContext))
+#3 {main}
+  thrown in /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[12-Apr-2018 12:42:20 UTC] PHP Notice:  Undefined variable: subscription in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 27
+[12-Apr-2018 12:42:20 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'agreementId cannot be null' in /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Agreement.php(429): PayPal\Validation\ArgumentValidator::validate(NULL, 'agreementId')
+#1 /home/dixiehos1/public_html/shopitus.com/app/helpers.php(20): PayPal\Api\Agreement::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php(27): cancelAgreement(NULL, Object(PayPal\Rest\ApiContext))
+#3 {main}
+  thrown in /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[12-Apr-2018 13:44:02 UTC] PHP Notice:  Undefined variable: subscription in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 27
+[12-Apr-2018 13:44:03 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'agreementId cannot be null' in /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Agreement.php(429): PayPal\Validation\ArgumentValidator::validate(NULL, 'agreementId')
+#1 /home/dixiehos1/public_html/shopitus.com/app/helpers.php(20): PayPal\Api\Agreement::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php(27): cancelAgreement(NULL, Object(PayPal\Rest\ApiContext))
+#3 {main}
+  thrown in /home/dixiehos1/public_html/shopitus.com/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[20-Apr-2018 17:02:22 UTC] PHP Notice:  Undefined index: agreement_id in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 28
+[20-Apr-2018 17:02:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php:28) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 36
+[21-Apr-2018 03:33:29 UTC] PHP Notice:  Undefined index: agreement_id in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 28
+[21-Apr-2018 03:33:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php:28) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/updateUserPlan.php on line 36
+[21-Apr-2018 03:37:16 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 87
+[21-Apr-2018 03:37:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 03:41:12 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 87
+[21-Apr-2018 03:41:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 03:50:14 UTC] PHP Notice:  Undefined variable: apiContext in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 156
+[21-Apr-2018 03:50:14 UTC] PHP Fatal error:  Cannot redeclare getApiContext() (previously declared in /home/dixiehos1/public_html/shopitus.com/payment/paypal/bootstrap.php:44) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/bootstrap.php on line 94
+[21-Apr-2018 04:01:07 UTC] PHP Notice:  Undefined variable: apiContext in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 154
+[21-Apr-2018 04:01:07 UTC] PHP Fatal error:  Cannot redeclare getApiContext() (previously declared in /home/dixiehos1/public_html/shopitus.com/payment/paypal/bootstrap.php:44) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/bootstrap.php on line 94
+[21-Apr-2018 04:03:35 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 86
+[21-Apr-2018 04:03:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:86) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 04:04:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 04:06:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 04:08:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 04:12:01 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 87
+[21-Apr-2018 04:12:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 04:15:23 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 86
+[21-Apr-2018 04:15:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dixiehos1/public_html/shopitus.com/app/helpers.php:87) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 76
+[21-Apr-2018 04:19:11 UTC] PHP Fatal error:  Cannot redeclare getApiContext() (previously declared in /home/dixiehos1/public_html/shopitus.com/payment/paypal/bootstrap.php:44) in /home/dixiehos1/public_html/shopitus.com/payment/paypal/bootstrap.php on line 94
+[27-Apr-2018 13:00:50 UTC] PHP Notice:  Undefined index: member_id in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 11
+[27-Apr-2018 13:00:50 UTC] PHP Notice:  Undefined index: selected_plan in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 12
+[27-Apr-2018 13:00:50 UTC] PHP Notice:  Undefined index: selected_cycle in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 13
+[27-Apr-2018 13:00:50 UTC] PHP Notice:  Undefined index: charges in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 14
+[27-Apr-2018 13:00:50 UTC] PHP Notice:  Undefined index: member_id in /home/dixiehos1/public_html/shopitus.com/payment/paypal/ExecuteAgreement.php on line 17
+[27-Apr-2018 13:00:50 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/dixiehos1/public_html/shopitus.com/app/helpers.php on line 12
